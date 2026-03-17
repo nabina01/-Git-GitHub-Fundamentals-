@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nabina | GitHub Fundamentals</title>
+	<style>
+		:root {
+			--bg-start: #f0f9ff;
+			--bg-end: #e2e8f0;
+			--card: #ffffff;
+			--text: #0f172a;
+			--muted: #334155;
+			--accent: #0ea5e9;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 2rem 1rem;
+			line-height: 1.6;
+			background: linear-gradient(160deg, var(--bg-start), var(--bg-end));
+			color: var(--text);
+		}
+
+		.container {
+			max-width: 760px;
+			margin: 0 auto;
+		}
+
+		main {
+			background: var(--card);
+			padding: 1.5rem;
+			border-radius: 14px;
+			box-shadow: 0 10px 30px rgba(15, 23, 42, 0.12);
+		}
+
+		h1 {
+			margin-top: 0;
+			margin-bottom: 0.5rem;
+		}
+
+		p {
+			color: var(--muted);
+		}
+
+		.profile-image {
+			display: block;
+			width: 120px;
+			height: 120px;
+			border-radius: 50%;
+			margin: 0 0 1rem;
+			border: 3px solid #bae6fd;
+		}
+
+		.links {
+			display: flex;
+			gap: 0.75rem;
+			flex-wrap: wrap;
+		}
+
+		a {
+			text-decoration: none;
+			padding: 0.45rem 0.75rem;
+			border-radius: 8px;
+			background: #e0f2fe;
+			color: #0c4a6e;
+			font-weight: 600;
+		}
+
+		a:hover {
+			background: var(--accent);
+			color: #ffffff;
+		}
+
+		.form-section {
+			margin-top: 1.5rem;
+		}
+
+		form {
+			display: grid;
+			gap: 0.75rem;
+		}
+
+		label {
+			font-weight: 600;
+			color: #0c4a6e;
+		}
+
+		input,
+		textarea {
+			width: 100%;
+			padding: 0.6rem 0.7rem;
+			border: 1px solid #cbd5e1;
+			border-radius: 8px;
+			font: inherit;
+		}
+
+		button {
+			width: fit-content;
+			padding: 0.55rem 0.9rem;
+			border: none;
+			border-radius: 8px;
+			background: var(--accent);
+			color: #ffffff;
+			font-weight: 600;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<main>
+			<img
+				class="profile-image"
+				src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+				alt="Profile icon"
+			>
+			<h1>Hello, I'm Nabina</h1>
+			<p>
+				I am learning Git and GitHub fundamentals and building clean, simple web pages.
+			</p>
+			<div class="links">
+				<a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+				<a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>
+			</div>
+
+			<section class="form-section">
+				<h2>Contact Me</h2>
+				<form>
+					<label for="name">Name</label>
+					<input id="name" name="name" type="text" placeholder="Your name" required>
+
+					<label for="email">Email</label>
+					<input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+					<label for="message">Message</label>
+					<textarea id="message" name="message" rows="4" placeholder="Write your message"></textarea>
+
+					<button type="submit">Send</button>
+				</form>
+			</section>
+		</main>
+	</div>
+
+</body>
+</html>
