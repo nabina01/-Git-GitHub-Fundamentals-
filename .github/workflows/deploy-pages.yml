@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - features
+      - feature/nabina
   workflow_dispatch:
 
 permissions:
