@@ -76,6 +76,40 @@
 			background: var(--accent);
 			color: #ffffff;
 		}
+
+		.form-section {
+			margin-top: 1.5rem;
+		}
+
+		form {
+			display: grid;
+			gap: 0.75rem;
+		}
+
+		label {
+			font-weight: 600;
+			color: #0c4a6e;
+		}
+
+		input,
+		textarea {
+			width: 100%;
+			padding: 0.6rem 0.7rem;
+			border: 1px solid #cbd5e1;
+			border-radius: 8px;
+			font: inherit;
+		}
+
+		button {
+			width: fit-content;
+			padding: 0.55rem 0.9rem;
+			border: none;
+			border-radius: 8px;
+			background: var(--accent);
+			color: #ffffff;
+			font-weight: 600;
+			cursor: pointer;
+		}
 	</style>
 </head>
 <body>
@@ -94,6 +128,22 @@
 				<a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
 				<a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>
 			</div>
+
+			<section class="form-section">
+				<h2>Contact Me</h2>
+				<form>
+					<label for="name">Name</label>
+					<input id="name" name="name" type="text" placeholder="Your name" required>
+
+					<label for="email">Email</label>
+					<input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+					<label for="message">Message</label>
+					<textarea id="message" name="message" rows="4" placeholder="Write your message"></textarea>
+
+					<button type="submit">Send</button>
+				</form>
+			</section>
 		</main>
 	</div>
 
