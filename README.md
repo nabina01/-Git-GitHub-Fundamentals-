@@ -18,12 +18,14 @@ It is a small practice project focused on clean commits and workflow basics.
 - Page title in the head section
 - Main heading in the body
 - Short self-description paragraph
-- Basic CSS styling for readability
+- Enhanced CSS styling for readability
+- Profile image and useful external links
+- GitHub Pages deployment workflow
 
 ## Git Workflow Used
-1. Created a feature branch: `feature/lenovo`
+1. Created and used a feature branch: `feature/nabina`
 2. Added HTML content and styling in focused commits
 3. Updated project documentation in a separate commit
-4. Planned merge from feature branch to main branch
-5. Planned issue tracking for styling improvements and typo fixes
-6. Planned pull request workflow with self-review and merge
+4. Pushed feature updates regularly
+5. Prepared issue and pull request workflow on GitHub
+6. Kept `main` unchanged while finalizing feature updates
