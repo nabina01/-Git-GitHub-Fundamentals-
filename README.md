@@ -3,6 +3,7 @@
 ## Project Description
 This repository contains a simple HTML page created to practice Git and GitHub fundamentals.
 The page includes a clear title, a heading, a short description about me, and basic styling.
+It is a small practice project focused on clean commits and workflow basics.
 
 ## Setup Instructions
 1. Clone the repository:
